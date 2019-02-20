@@ -1,0 +1,38 @@
+{
+  "name": "xnative",
+  "version": "1.0.6",
+  "private": true,
+  "author": "anygogo",
+  "license": "MIT",
+  "description": "Xnative component library for React Native (iOS and Android)",
+  "main": "index.js",
+  "keywords": [
+    "react-native",
+    "Button",
+    "Container",
+    "Content",
+    "Header",
+    "Footer",
+    "Icon",
+    "Modal",
+    "Statusbar",
+    "Text",
+    "Theme"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/everygogo/xnative.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "peerDependencies": {
+    "react": ">=16.4.1",
+    "react-native": ">=0.56.0"
+  },
+  "dependencies": {
+    "lottie-react-native": "^2.5.11",
+    "prop-types": "^15.7.1",
+    "react-native-vector-icons": "^6.3.0"
+  }
+}
